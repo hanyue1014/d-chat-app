@@ -1,27 +1,22 @@
-# Next.js + Tailwind CSS Example
+# Decentralised Chat App
+---
+## This is created with the help of [Sonny Sangha](https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA) by his amazing Metaverse React Challenge
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## What does this do
+For now this app doesn't really serve any purpose except letting me to learn about Web 3.0, Nextjs, tailwindCss AND harness my reactjs skills
 
-## Preview
+## Actual functionality
+- Sign in with metamask wallet
+- Chat on the testnet network (I assume)
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## Technology used
+- Nextjs
+- Reactjs
+- TailwindCss (can't say I'd prefer it over normal CSS though)
+- Moralis
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Colors
+Since everything is kinda on the spot, I will be attempting to use colors on the spot also.
+[Generated color pallete that I will be using](https://coolors.co/251722-f638dc-af83a5-fff4ff)
 
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+PS: This is actually my first time touching Nextjs, Moralis and TailwindCss
