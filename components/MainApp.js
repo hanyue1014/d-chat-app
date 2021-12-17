@@ -1,10 +1,15 @@
 import React from 'react'
 
-function MainApp(props) {
+import Header from './Header'
+import Messages from './Messages'
+
+function MainApp() {
   return (
-    <div>
-      <h1>Hello, Welcome</h1>
-      <button onClick={props.funcLogout}>Log out</button>
+    <div className='bg-gradient-to-b from-background to-accent text-text h-full min-h-screen'>
+      <div className='max-w-5xl mx-auto'>
+      <Header />
+      <Messages />
+      </div>
     </div>
   )
 }

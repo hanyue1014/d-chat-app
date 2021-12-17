@@ -16,7 +16,7 @@ export default function Home() {
         <title>Decentralised Chat App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {isAuthenticated ? <MainApp funcLogout={logout}/> : <Login />}
+      {isAuthenticated ? <MainApp /> : <Login />}
     </div>
   )
 }
