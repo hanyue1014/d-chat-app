@@ -2,18 +2,12 @@ import { useMoralis } from 'react-moralis'
 
 import Head from 'next/head'
 import Login from '../components/Login'
+import MainApp from '../components/MainApp'
 
 export default function Home() {
   const {isAuthenticated, logout} = useMoralis()
 
   if (!isAuthenticated) {
-    return (<>
-      <Head>
-        <title>Decentralised Chat App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Login />
-    </>)
   }
 
   return (
@@ -22,8 +16,7 @@ export default function Home() {
         <title>Decentralised Chat App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Hello, Welcome</h1>
-      <button onClick={logout}>Log out</button>
+      {isAuthenticated ? <MainApp funcLogout={logout}/> : <Login />}
     </div>
   )
 }
